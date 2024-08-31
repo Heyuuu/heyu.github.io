@@ -2,25 +2,36 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "何喻的博客",
-  description: "何喻的博客",
+  title: "何喻的技术博客",
+  description: "何喻的技术博客",
 
   outDir: "../dist",
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "",
+    logo: "/logo.png",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "技术醒酒汤", link: "/recall" },
     ],
 
     sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: "醒酒汤",
+        items: [{ text: "说明", link: "/recall" }],
+      },
+      {
+        text: "PHP 语言",
+        items: [{ text: "语法速查", link: "/recall/php/syntax" }],
+      },
+      {
+        text: "Golang 语言",
+        items: [{ text: "语法速查", link: "/recall/go/syntax" }],
+      },
+      {
+        text: "Kotlin 语言",
+        items: [{ text: "语法速查", link: "/recall/kotlin/syntax" }],
       },
     ],
 
