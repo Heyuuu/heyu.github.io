@@ -20,7 +20,7 @@ features:
     link: /recall/php/syntax
   - title: Golang 语言
     details: Golang 语法速查
-    link: /recall/go/syntax
+    link: /recall/go/
   - title: Kotlin 语言
     details: Kotlin 语法速查
     link: /recall/kotlin/syntax

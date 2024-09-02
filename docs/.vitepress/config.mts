@@ -7,6 +7,16 @@ export default defineConfig({
 
   outDir: "../dist",
 
+  markdown: {
+    container: {
+      tipLabel: "提示",
+      warningLabel: "警告",
+      dangerLabel: "危险",
+      infoLabel: "信息",
+      detailsLabel: "详细信息",
+    },
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "",
@@ -27,8 +37,9 @@ export default defineConfig({
       },
       {
         text: "Golang 语言",
+        link: "/recall/go/",
         items: [
-          { text: "语法速查", link: "/recall/go/syntax" },
+          { text: "语法速查", link: "/recall/go/base" },
           { text: '"面向对象"', link: "/recall/go/oo" },
         ],
       },
