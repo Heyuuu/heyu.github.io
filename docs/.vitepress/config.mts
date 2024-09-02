@@ -27,7 +27,10 @@ export default defineConfig({
       },
       {
         text: "Golang 语言",
-        items: [{ text: "语法速查", link: "/recall/go/syntax" }],
+        items: [
+          { text: "语法速查", link: "/recall/go/syntax" },
+          { text: '"面向对象"', link: "/recall/go/oo" },
+        ],
       },
       {
         text: "Kotlin 语言",
@@ -36,5 +39,10 @@ export default defineConfig({
     ],
 
     socialLinks: [{ icon: "github", link: "https://heyuuu.github.io/" }],
+
+    outline: {
+      level: "deep",
+      label: "大纲",
+    },
   },
 });
