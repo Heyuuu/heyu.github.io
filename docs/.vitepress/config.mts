@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "何喻的技术博客",
-  description: "何喻的技术博客",
+  title: "我的工作经验记录",
+  description: "我的工作经验记录",
 
   outDir: "../dist",
 
